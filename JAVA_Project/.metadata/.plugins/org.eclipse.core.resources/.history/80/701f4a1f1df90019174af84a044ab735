@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="497.0" prefWidth="683.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="8.0" layoutY="14.0" prefHeight="187.0" prefWidth="312.0" style="-fx-background-color: white;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="37.0" prefWidth="220.0" text="SYS COMPANY">
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="31.0" />
+               </font></Label>
+            <HBox alignment="CENTER" prefHeight="47.0" prefWidth="391.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" nodeOrientation="RIGHT_TO_LEFT" text="아이디" textOverrun="CLIP" HBox.hgrow="NEVER" />
+                  <TextField fx:id="txtField" style="-fx-border-color: black;">
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="443.0">
+               <children>
+                  <Label text="비밀번호" />
+                  <PasswordField fx:id="passwordField" style="-fx-border-color: black;">
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                  </PasswordField>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="63.0" prefWidth="307.0">
+               <children>
+                  <Button fx:id="btnOk" mnemonicParsing="false" style="-fx-background-color: skyblue;" text="확인">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btnExit" mnemonicParsing="false" style="-fx-background-color: skyblue;" text="취소">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btnSignUP" mnemonicParsing="false" style="-fx-background-color: skyblue;" text="회원가입">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+      <Label layoutX="556.0" layoutY="47.0" text="MASTER">
+         <font>
+            <Font name="Corbel Italic" size="15.0" />
+         </font></Label>
+      <ImageView fitHeight="260.0" fitWidth="254.0" layoutX="4.0" layoutY="223.0" pickOnBounds="true" />
+      <Button fx:id="btnMaster" layoutX="455.0" layoutY="91.0" mnemonicParsing="false" opacity="0.0" prefHeight="201.0" prefWidth="186.0" text="Button" />
+      <ImageView fitHeight="181.0" fitWidth="220.0" layoutX="210.0" layoutY="194.0" pickOnBounds="true" />
+      <Label alignment="CENTER" layoutX="287.0" layoutY="260.0" prefHeight="48.0" prefWidth="69.0" text="판다.." />
+   </children>
+</AnchorPane>

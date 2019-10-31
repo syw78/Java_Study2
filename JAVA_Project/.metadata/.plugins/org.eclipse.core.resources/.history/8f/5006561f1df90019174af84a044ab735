@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="551.0" prefWidth="396.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" layoutX="18.0" layoutY="54.0" prefHeight="29.0" prefWidth="378.0">
+         <children>
+            <Label contentDisplay="CENTER" text="아이디">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin></Label>
+            <TextField id="txtId" alignment="CENTER">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </TextField>
+            <Button id="overlap" mnemonicParsing="false" text="중복확인">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="12.0" layoutY="107.0" prefHeight="0.0" prefWidth="291.0">
+         <children>
+            <Label contentDisplay="CENTER" text="비밀번호">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin></Label>
+            <PasswordField id="txtField" prefHeight="29.0" prefWidth="170.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </PasswordField>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="18.0" layoutY="205.0" prefHeight="0.0" prefWidth="291.0">
+         <children>
+            <Label contentDisplay="CENTER" text="이  름">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin></Label>
+            <TextField id="txtName" alignment="CENTER">
+               <HBox.margin>
+                  <Insets left="23.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="95.0" layoutY="462.0" prefHeight="39.0" prefWidth="200.0">
+         <children>
+            <Button id="btnUP" mnemonicParsing="false" text="등 록">
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="btnClose" mnemonicParsing="false" text="취 소">
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="-5.0" layoutY="140.0" prefHeight="55.0" prefWidth="308.0">
+         <children>
+            <Label text="비밀번호확인">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Label>
+            <PasswordField id="txtField2" prefHeight="29.0" prefWidth="171.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </PasswordField>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="14.0" layoutY="246.0" prefHeight="45.0" prefWidth="340.0">
+         <children>
+            <Label text="생년월일">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </Label>
+            <TextField id="frontN" prefHeight="29.0" prefWidth="106.0" />
+            <TextField id="backN" prefHeight="29.0" prefWidth="104.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="15.0" layoutY="290.0" prefHeight="55.0" prefWidth="212.0">
+         <children>
+            <Label text="성별">
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox id="comboFM" prefHeight="29.0" prefWidth="83.0" promptText="선택">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="-21.0" layoutY="345.0" prefHeight="55.0" prefWidth="364.0">
+         <children>
+            <Label text="휴대전화">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </Label>
+            <TextField id="phoneNum" prefHeight="29.0" prefWidth="176.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="24.0" layoutY="399.0" prefHeight="45.0" prefWidth="308.0">
+         <children>
+            <Label text="업체명">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+            </Label>
+            <TextField id="tfEnterpriseName" prefHeight="29.0" prefWidth="200.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
